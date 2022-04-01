@@ -231,9 +231,11 @@ header main img {
 }
 #carrusel {
     display: flex;
+}
+#section-3 i {
     justify-content: space-between;
     color: #F3603B;
-    width: 60px;
+    width: 30px;
     margin-top: 5px;
 }
 #section-3 .button {

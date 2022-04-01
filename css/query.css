@@ -133,7 +133,7 @@ Los diseños se crearon con los siguientes anchos:
     #section-3 section {
         display: flex;
     }
-    .fa-circle, #carrusel{
+    #section-3 i{
         display: none;
     }
     /* END */
