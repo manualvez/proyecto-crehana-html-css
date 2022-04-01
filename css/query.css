@@ -1,0 +1,207 @@
+/* 
+
+Los diseños se crearon con los siguientes anchos:
+- Desktop: 768px > 1440px
+- Mobile: 375px > 768px
+
+*/
+@media (min-width: 1024px) {
+
+    .background-top {
+        background-image: url(../imagenes/bg-tablet-pattern.svg);
+        background-position: 130% -12%;
+        background-repeat: no-repeat;
+    }
+        
+    .background-bottom {
+        background-image: url(../imagenes/bg-tablet-pattern.svg);
+        background-position: -60% 70%;
+        background-repeat: no-repeat;
+    }
+
+    /* HEADER */
+    header main {
+        padding: 60px 10% 0 10%;
+        width: 80%;
+    }
+    header main img {
+        width: 100%;
+    }
+    header main nav{
+        width:40%
+    }
+    header main nav, header .button {
+        display: flex;
+    }
+    header main ul {
+        padding: 0px;
+        display: flex;
+        list-style: none;
+        width: 100%;
+        font-size: 13px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header main ul li {
+        text-decoration: none;
+        color: #242E52;
+    }
+    #barras-header{
+        display: none;
+    }
+    header main ul{
+        display: flex;
+        flex-direction: row;
+    }
+    /* END */
+    /* SECTION MAIN */
+
+    #section-main {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding:80px 10% 0 10%;
+        width: 80%;
+    }
+    #section-main img {
+        width: 45%;
+    }
+    #section-main div {
+        width: 50%;
+        align-items:flex-start
+    }
+    #section-main h1{
+        text-align: left;
+        font-weight: 700; 
+        color: #242E52;
+        font-size: 50px;
+    }
+    #section-main p{
+        text-align: left;
+        color: #B3B2B7;
+        line-height: 30px;
+        padding-top: 15px;
+        font-size: 18px;
+        width: 70%;
+    }
+    /* END */
+
+    /* SECTION 2 */
+    
+    #section-2 {
+        flex-direction: row;
+        width: 80%;
+        padding: 150px 10% 0 10%;
+        justify-content: space-between;
+    }
+    /* ARTICLE 1 */
+    #section-2 .article-1 {
+        padding: 0;
+        width: 40%;
+
+    }
+    #section-2 .article-2 div {
+        background-color: transparent;
+    }
+    #section-2 .article-1 h2, #section-2 .article-1 p{
+        text-align: left;
+    }
+
+    /* ARTICLE 2 */
+    #section-2 section{
+        width: 50%;
+    }
+    .div-var-section-2 {
+        margin: 0px 0 5px 0;
+    }
+    .article-2 p {
+        width: 83.5%;
+        margin-left: 16.5%;
+    }
+
+    /* END */
+
+    /* SECTION 3 */
+    #section-3 .card-desktop {
+        display: flex;
+        width: 100%;
+    }
+    #section-3 {
+        padding: 70px 10% 0 10%;
+        width: 80%;
+    }
+    #section-3 section {
+        display: flex;
+    }
+    .fa-circle, #carrusel{
+        display: none;
+    }
+    /* END */
+
+    /* SECTION 4 */
+    #section-4 {
+        flex-direction: row;
+        width: 80%;
+        padding: 60px 10%;
+        justify-content: space-between;
+        background-image: url(../imagenes/bg-simplify-section-desktop.svg);
+    }
+    #section-4 h2 {
+    width:40%;
+    text-align: left;
+    }
+    #carrusel {
+        display: none;
+    }
+    /* END */
+
+    /* FOOTER */
+    footer {
+        width: 80%;
+        padding: 40px 10% 0 10%;
+    }
+    footer div {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* BOX 1 */
+
+    .box-1-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 20%;
+        height: 130px;
+        margin-top: 0px;
+    }
+    .box-1-footer img{
+        width: 180px;
+        align-self: center;
+    }
+    .box-1-footer span{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* BOX 2 */
+    .box-2-footer {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+        /* BOX 3 */
+    footer form {
+        width: 30%;
+        height: 40px;
+        margin: 0 0 0 0;
+        align-self: flex-start;
+    }
+    #copyright {
+        align-self: flex-end;
+        margin: 0 0 20px 0;
+    }
+}
